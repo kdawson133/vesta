@@ -3,7 +3,7 @@ FROM dolphin-llama3
 # set the temperature to 1 [higher is more creative, lower is more coherent]
 PARAMETER temperature 0.3
 # set context window
-PARAMETER num_ctx 14336
+PARAMETER num_ctx 6144
 # set max tokens
 PARAMETER num_predict 512
 # set the system message

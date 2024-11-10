@@ -2,7 +2,7 @@ FROM dolphin-mistral
 
 # set the temperature to 1 [higher is more creative, lower is more coherent]
 PARAMETER temperature 0.3
-PARAMETER num_ctx 14336
+PARAMETER num_ctx 6144
 PARAMETER num_predict 512
 # set the system message
 SYSTEM """
