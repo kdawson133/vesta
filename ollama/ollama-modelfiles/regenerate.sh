@@ -1,5 +1,5 @@
 #!/bin/sh
-ollama pull hf.co/mradermacher/Llama-3.2-3B-Instruct-uncensored-GGUF
+ollama pull llama3.2:3b
 ollama pull notus
 ollama pull hf.co/arcee-ai/SuperNova-Medius-GGUF
 ollama pull mistral-nemo
