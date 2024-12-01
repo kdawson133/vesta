@@ -1,7 +1,7 @@
 #!/bin/sh
 ollama pull dolphin-llama3
-ollama pull dolphin-mistral
-ollama pull dolphin-phi3
+ollama pull notus
+ollama pull dolphin-phi
 ollama pull mistral-nemo
 
 ollama create magnus -f magnus.modelfile
