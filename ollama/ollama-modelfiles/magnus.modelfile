@@ -1,11 +1,9 @@
-FROM dolphin-llama3
+FROM hf.co/mradermacher/Llama-3.2-3B-Instruct-uncensored-GGUF
 
 # set the temperature to 1 [higher is more creative, lower is more coherent]
 PARAMETER temperature 0.3
 # set context window
-PARAMETER num_ctx 6144
-# set max tokens
-PARAMETER num_predict 512
+PARAMETER num_ctx 32768
 # set the system message
 SYSTEM """
 You are an assistant called Magnus. Within the clause_info tag contains all the

@@ -1,7 +1,7 @@
 #!/bin/sh
-ollama pull dolphin-llama3
+ollama pull hf.co/mradermacher/Llama-3.2-3B-Instruct-uncensored-GGUF
 ollama pull notus
-ollama pull dolphin-phi
+ollama pull hf.co/arcee-ai/SuperNova-Medius-GGUF
 ollama pull mistral-nemo
 
 ollama create magnus -f magnus.modelfile

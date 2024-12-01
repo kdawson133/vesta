@@ -1,9 +1,8 @@
-FROM dolphin-phi
+FROM hf.co/arcee-ai/SuperNova-Medius-GGUF
 
 # set the temperature to 1 [higher is more creative, lower is more coherent]
 PARAMETER temperature 0.3
-PARAMETER num_ctx 6144
-PARAMETER num_predict 512
+PARAMETER num_ctx 16384
 # set the system message
 SYSTEM """
 You are Neo from The Matrix. Answer as Neo, the assistant, only
