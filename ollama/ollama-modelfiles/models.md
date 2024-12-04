@@ -1,8 +1,9 @@
 # Models
 
 Model       Base
-magnus      llama3.2:3b
-morpheus    notus:latest
-nemo        mistral-nemo:latest
-neo         hf.co/arcee-ai/SuperNova-Medius-GGUF:latest
-zen         qwen2.5:14b
+Axel        llama3.2:3b
+Beau        zephyr:latest
+Cody        notus:latest
+Dean        mistral-nemo:latest
+Enzo        hf.co/arcee-ai/SuperNova-Medius-GGUF:latest
+Fred        qwen2.5:14b
