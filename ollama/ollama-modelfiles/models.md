@@ -7,3 +7,5 @@ Cody        notus:latest
 Dean        mistral-nemo:latest
 Enzo        hf.co/arcee-ai/SuperNova-Medius-GGUF:latest
 Fred        qwen2.5:14b
+Glen        mattw/llama2-13b-tiefighter:latest
+Hugo        hermes3:latest
