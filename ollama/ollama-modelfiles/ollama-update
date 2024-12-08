@@ -1,5 +1,8 @@
 curl -fsSL https://ollama.com/install.sh | sh
 sudo cp ollama.service /etc/systemd/system/ollama.service
+echo '---> Ollama Service Reinstalled'
 sudo systemctl daemon-reload
+echo '---> Ollama Service Reloaded'
 sudo systemctl restart ollama.service
+echo '---> Ollama Service Restarted'
 
