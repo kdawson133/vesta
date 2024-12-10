@@ -1,4 +1,4 @@
-FROM orcha2:13b
+FROM orca2:13b
 
 # set the temperature to 1 [higher is more creative, lower is more coherent]
 PARAMETER temperature 0.3
