@@ -1,5 +1,5 @@
 #!/bin/sh
-query='Create a blog post about the Roswell Incident in 1947'
+query='What are the possible explainations of the UFO phenomena?'
 echo '-axel----------------------------------------' > comp.txt
 ollama run axel $query >> comp.txt
 echo '-beau----------------------------------------' >> comp.txt
