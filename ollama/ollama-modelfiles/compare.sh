@@ -1,5 +1,5 @@
 #!/bin/sh
-query='What are the possible explainations of the UFO phenomena?'
+query='Create a blog article on the Manhattan Project.'
 echo '-axel----------------------------------------' > comp.txt
 ollama run axel $query >> comp.txt
 echo '-beau----------------------------------------' >> comp.txt
@@ -20,5 +20,6 @@ echo '-ivan----------------------------------------' >> comp.txt
 ollama run ivan $query >> comp.txt
 echo '-jack----------------------------------------' >> comp.txt
 ollama run jack $query >> comp.txt
-echo '-****----------------------------------------' >> comp.txt
+echo '-kirk----------------------------------------' >> comp.txt
+ollama run kirk $query >> comp.txt
 cat comp.txt
