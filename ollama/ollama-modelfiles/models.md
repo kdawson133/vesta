@@ -11,3 +11,4 @@ Glen    11 GB       mattw/llama2-13b-tiefighter:latest
 Hugo    11 GB       hermes3:latest
 Ivan    23 GB       everythinglm:latest
 Jack    11 GB       orca2:13b
+Kirk    17 GB       falcon3:10b-instruct-q8_0

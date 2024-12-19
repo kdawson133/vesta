@@ -22,4 +22,5 @@ echo '-jack----------------------------------------' >> comp.txt
 ollama run jack $query >> comp.txt
 echo '-kirk----------------------------------------' >> comp.txt
 ollama run kirk $query >> comp.txt
+echo '-****----------------------------------------' >> comp.txt
 cat comp.txt
