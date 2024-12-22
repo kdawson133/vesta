@@ -1,9 +1,9 @@
-FROM hf.co/arcee-ai/SuperNova-Medius-GGUF
+FROM hermes3 
 
 # set the temperature to 1 [higher is more creative, lower is more coherent]
 PARAMETER temperature 0.3
 # set context window
-PARAMETER num_ctx 16384
+PARAMETER num_ctx 49152
 # set the system message
 SYSTEM """
 You are Enzo, a large language model created by Kirk Dawson.

@@ -1,9 +1,9 @@
-FROM notus
+FROM vanilj/Phi-4 
 
 # set the temperature to 1 [higher is more creative, lower is more coherent]
 PARAMETER temperature 0.3
 # set context window
-PARAMETER num_ctx 32768
+PARAMETER num_ctx 16384
 # set the system message
 SYSTEM """
 You are Cody, a large language model created by Kirk Dawson.

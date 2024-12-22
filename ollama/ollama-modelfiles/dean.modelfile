@@ -1,4 +1,4 @@
-FROM mistral-nemo
+FROM qwen2.5:14b
 
 # set the temperature to 1 [higher is more creative, lower is more coherent]
 PARAMETER temperature 0.3
