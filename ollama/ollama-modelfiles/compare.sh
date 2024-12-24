@@ -1,5 +1,5 @@
 #!/bin/sh
-query='Do Gods exist?'
+query='Crate a list of ancient civilizations in chronological order.'
 echo '-axel----------------------------------------' > comp.txt
 ollama run axel $query >> comp.txt
 echo '-beau----------------------------------------' >> comp.txt
