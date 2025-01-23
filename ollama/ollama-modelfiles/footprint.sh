@@ -9,4 +9,6 @@ ollama run dean why is the sky blue
 ollama ps >> mem.txt
 ollama run enzo why is the sky blue
 ollama ps >> mem.txt
+ollama run fred why is the sky blue
+ollama ps >> mem.txt
 cat mem.txt

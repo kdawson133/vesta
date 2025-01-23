@@ -10,5 +10,7 @@ echo '-dean----------------------------------------' >> comp.txt
 ollama run dean $query >> comp.txt
 echo '-enzo----------------------------------------' >> comp.txt
 ollama run enzo $query >> comp.txt
+echo '-fred----------------------------------------' >> comp.txt
+ollama run fred $query >> comp.txt
 echo '-****----------------------------------------' >> comp.txt
 cat comp.txt
