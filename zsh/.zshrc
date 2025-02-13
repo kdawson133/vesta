@@ -156,7 +156,7 @@ alias tkc='tmux kill-session -t γ-gamma'
 
 # Misc 
 alias vim='nvim'
-
+alias hx='helix'
 # Shell integrations
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
