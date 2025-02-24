@@ -1,7 +1,6 @@
 # If not running interactively, don't do anything!
 [[ $- != *i* ]] && return
 #
-pfetch
 # Set Cursor Style
 # 0 ==> default
 # 1 ==> blinking block (my default)
