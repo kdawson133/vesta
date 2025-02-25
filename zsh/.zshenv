@@ -37,7 +37,7 @@ export LANG=en_AU.UTF-8
 export LANGUAGE=en_AU:en
 export TERM=xterm-256color
 export COLORTERM=truecolor
-export TERMINAL=kitty
+export TERMINAL=wezterm
 export GNUPGHOME="$XDG_DATA_HOME"/gnupg
 export LESSHISTFILE="$XDG_STATE_HOME"/less/history
 export TERMINFO="$XDG_DATA_HOME"/terminfo
@@ -46,10 +46,6 @@ export PODMAN_IGNORE_CGROUPSV1_WARNING=0
 
 # HomeBrew
 export HOMEBREW_NO_ENV_HINTS=1
-
-# Pyenv
-export PYENV_ROOT="$HOME/.pyenv"
-[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
 
 # Rust
 if [[ -f "$HOME/.cargo/env" ]] then

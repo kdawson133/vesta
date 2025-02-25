@@ -109,6 +109,12 @@ alias ll='ls -lah --color=auto'
 alias ld='ls -d */'
 alias l.='ls -a --color=auto'
 
+# Listing using eza
+alias es='eza --icons'
+alias el='eza -la --icons'
+alias ed='eza -D --icons'
+alias e.='eza -a --icons' 
+
 # Safety
 alias cp='cp -i'
 alias mv='mv -i'
@@ -155,9 +161,21 @@ alias tkc='tmux kill-session -t γ-gamma'
 
 # Misc 
 alias vim='nvim'
-alias hx='helix'
+alias vif='nvim $(fzf)'
+
 # Shell integrations
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
 eval "$(starship init zsh)"
-eval "$(pyenv init -)"
+
+# Ruby
+if [[ -d "/opt/homebrew/opt/chruby" ]] then
+    source /opt/homebrew/opt/chruby/share/chruby/chruby.sh
+    source /opt/homebrew/opt/chruby/share/chruby/auto.sh
+    chruby ruby-3.4.1 # run chruby to see actual version
+fi
+if [[ -d "/usr/local/opt/chruby/share/chruby" ]] then
+    source /usr/local/opt/chruby/share/chruby/chruby.sh
+    source /usr/local/opt/chruby/share/chruby/auto.sh
+    chruby ruby-3.4.1 # run chruby to see actual version
+fi
